@@ -1,0 +1,22 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=16c212d3
+parentCID=ffffffff
+createType="vmfs"
+
+# Extent description
+RW 41943040 VMFS "ubuntu-2204-kube-v1.30.0-flat.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.deletable = "true"
+ddb.geometry.cylinders = "2610"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "81741f6d423a19e06d5b3baa16c212d3"
+ddb.toolsVersion = "12389"
+ddb.uuid = "60 00 C2 94 eb 4b ff 6e-18 6a d7 13 ef a0 9b 18"
+ddb.virtualHWVersion = "14"
